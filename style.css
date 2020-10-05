@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 12px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+}
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  width: 550px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 100;
+  top: 5%;
+  left: .5%;
+}
+.navbar-img-wrapper {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-img {
+  width: 80px;
+  cursor: pointer;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  width: 60%;
+}
+.nav-link {
+  width: 25%;
+}
+.nav-link a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  transition: all .5s ease;
+}
+.nav-link a:hover {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #fff;
+}
+/* END OF NAVBAR */
+/* HERO SECTION */
+.hero-section-container {
+  width: 100%;
+  height: 100vh;
+}
+.hero-slide-1 {
+  width: 100%;
+  /* height: 65vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img-wrapper {
+  width: 100%;
+  /* height: 100%; */
+  overflow: hidden;
+}
+.hero-img-wrapper img {
+  width: 100%;
+  /* height: 100%; */
+}
+.hero-text-wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px;
+  text-align: center;
+}
+.hero-heading {
+  font-size: 45px;
+  color: #000;
+  font-weight: 400;
+  letter-spacing: -3px;
+  line-height: 45px;
+  margin-bottom: 45px;
+}
+.hero-paragraph {
+  width: 100%;
+  font-size: 14px;
+  color: rgb(89, 89, 89);
+  line-height: 1.5;
+  margin-bottom: 45px;
+}
+.hero-link {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hero-link a {
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+  letter-spacing: 8px;
+  font-weight: 300;
+  transition: color .5s ease;
+  -webkit-transition: color .5s ease;
+  -moz-transition: color .5s ease;
+}
+.hero-link a:hover {
+  color: rgb(89, 89, 89);
+}
+
+
+
+
+
+
+/* END OF HERO SECTION */
+
+
+
+
+
+/* color: hsl(228, 45%, 44%);
+
+  We are available all across the globe
+
+  With stores all over the world, it's easy for you to find furniture for your home or place of business. 
+  Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
+  store locator. Any questions? Don't hesitate to contact us today.
+
+  Shop now
+
+  Manufactured with the best materials
+
+  Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
+  to ensure that every product is made as perfect and as consistent as possible. With three decades of 
+  experience in this industry, we understand what customers want for their home and office.
+
+  Shop now
+
+  About our furniture
+
+  Our multifunctional collection blends design and function to suit your individual taste.
+  Make each room unique, or pick a cohesive theme that best express your interests and what
+  inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+  or anything in between. Product specialists are available to help you create your dream space.
+*/
